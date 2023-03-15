@@ -1,7 +1,11 @@
-from pytube import YouTube
+from PyPDF2 import PdfWriter
+import os
 
-yt = YouTube("https://youtu.be/bwzL5PMSkEc")
+merger = PdfWriter()
 
-file = yt.streams.get_highest_resolution()
+for file in os.listdir(os.curdir):
+    if file.endswith(".pdf"):
+        merger.append(file)
 
-file.download()
+merger.write("combined_file.pdf")
+merger.close()
