@@ -17,7 +17,7 @@ Read the 'requirements.txt' file.
 This program does not require installation.
 
 ### How to use it?
-1. Place the PDF files in the program folder.
+1. Put all the PDFs that will be merged in the program folder.
 2. Run the app.py file.
 3. A file named "merged_file.pdf" containing all the merged PDFs will be created in the program folder.
 
@@ -38,7 +38,7 @@ Ler o arquivo 'requirements.txt'
 Esse programa não necessita instalação.
 
 ### Como usar?
-1. Coloque os arquivos PDF na pasta do programa.
+1. Coloque todos os PDFs que serão combinados na pasta do programa.
 2. Execute o arquivo app.py.
 3. Um arquivo chamado "merged_file.pdf" contendo todos os PDFs que foram combinados será criado na pasta do programa.
 
